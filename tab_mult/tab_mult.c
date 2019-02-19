@@ -36,13 +36,13 @@ int	atoi(char *str)
 	return (num);
 }
 
-void	printtemplate(int a, int num)
+void	printtemplate(int i, int num)
 {
 	itoa(a);
 	write(1," x ",3);
 	itoa(num);
 	write(1," = ",3);
-	itoa(num * a);
+	itoa(num * i);
 	ft_printnl();
 }
 

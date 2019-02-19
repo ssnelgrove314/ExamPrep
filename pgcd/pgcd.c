@@ -25,7 +25,7 @@ int	main(int argc, char **argv)
 	}
 	a = atoi(av[1]);
 	b = atoi(av[2]);
-	
+
 	printf("%d\n", ft_gcd(a, b));
 	return (0);
 }

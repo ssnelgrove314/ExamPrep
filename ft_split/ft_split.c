@@ -49,7 +49,7 @@ int is_end(char *s, int pos)
 
 	if (pos < 0 || slen < pos)
 		return (0);
-	if (pos == slen - 1 && !(is_space(slen -1)))
+	if (pos == slen - 1 && !(is_space(s[slen -1])))
 		return (1);
 	else if (is_space(s[pos + 1]) && !(is_space(s[pos])))
 		return (1);
