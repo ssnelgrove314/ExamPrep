@@ -27,7 +27,5 @@ int main(void)
 
 *   List item
 
----
 ![hacker](https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif)
 
----
